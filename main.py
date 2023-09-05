@@ -169,8 +169,8 @@ class Project:
 def connect_to_database():
     db_params = {
         'dbname': 'contracts_and_projects',
-        'user': 'postgres',
-        'password': '1qazxswedrT',
+        'user': 'user',
+        'password': 'password',
         'host': 'localhost',
         'port': '5432'
     }

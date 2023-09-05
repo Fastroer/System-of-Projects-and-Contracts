@@ -4,8 +4,8 @@ import psycopg2
 def create_database_tables():
     db_params = {
         'dbname': 'contracts_and_projects',
-        'user': 'postgres',
-        'password': '1qazxswedrT',
+        'user': 'user',
+        'password': 'password',
         'host': 'localhost',
         'port': '5432'
     }
